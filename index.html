@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @font-face {
+            font-family: 'Gigi';
+            src: url('./Gigi-Regular.woff2') format('woff2'),
+                url('./Gigi-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+        #centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 3000px;
+            height: 3000px;
+            margin-top: -1500px;
+            margin-left: -1500px;
+            text-align: center;
+            line-height: 3000px;
+        }
+        #container {
+            vertical-align: middle;
+            display: inline-block;
+            text-align: center;
+            line-height: normal;
+        }
+        #container > img {
+            height: 500px;
+            width: auto;
+        }
+        #borpion-container {
+            width: 100%;
+            text-align: center;
+            font-size: 200px;
+            font-family: 'Gigi';
+        }
+    </style>
+</head>
+<body>
+    <div id="centered">
+        <div id="container">
+            <img src="./meme_face.png" />
+            <div id="borpion-container">
+                Borpion.com
+            </div>
+        </div>    
+    </div>
+</body>
+</html>
